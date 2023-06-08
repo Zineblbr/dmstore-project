@@ -1,0 +1,46 @@
+.profil__card__container {
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+}
+.profil__card__header {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #e7f2f0;
+  padding-bottom: 20px;
+}
+
+.profil__card__header input {
+  outline: none;
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 30px;
+  border: #e7f2f0;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.profil__card__header input:focus {
+  outline: 1px solid #57b1ba;
+}
+
+.profil__card__btn {
+  align-self: flex-start;
+  padding: 10px 40px;
+  color: #ffffff;
+  background-color: #57b1ba;
+  border: 1px solid #57b1ba;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profil__card__footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.profil__card__links {
+  color: #57b1ba;
+}

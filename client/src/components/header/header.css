@@ -1,0 +1,40 @@
+.header {
+  padding: 90px 0;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  background: url("../../assets/abo-02.webp") center top no-repeat fixed;
+  margin: 0 0 80px;
+  background-size: cover;
+}
+
+.header::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background: #000000;
+  opacity: 0.6;
+}
+
+.header h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 100%;
+  font-size: 2.25em;
+  color: #fff;
+}
+
+.header h3 {
+  margin-top: 15px;
+  padding-right: 2px;
+  margin-right: 2px;
+  font-size: 1em;
+  color: #fff;
+}

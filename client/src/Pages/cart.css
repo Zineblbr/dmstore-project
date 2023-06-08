@@ -1,0 +1,22 @@
+.order_summary {
+  position: absolute;
+  right: 220px;
+}
+
+.cart__total__title {
+  color: #57b1ba;
+  font-weight: 900;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.cart__total {
+  font-weight: 800;
+}
+
+@media screen and (max-width: 500px) {
+  .order_summary {
+    position: static;
+    text-align: center;
+  }
+}

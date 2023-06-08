@@ -1,0 +1,48 @@
+.create__account__container {
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+}
+.create__account__header {
+  display: flex;
+  flex-direction: column;
+}
+
+.create__account__header input {
+  outline: none;
+  padding: 15px 20px 15px 20px;
+  margin-bottom: 30px;
+  border: #e7f2f0;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.create__account__header input:focus {
+  outline: 1px solid #57b1ba;
+}
+
+.create__account__btn {
+  display: block;
+  align-self: flex-start;
+  padding: 10px 40px;
+  margin-bottom: 17px;
+  color: #ffffff;
+  background-color: #57b1ba;
+  border: 1px solid #57b1ba;
+  border-radius: 5px;
+}
+
+.create__account__links {
+  color: #57b1ba;
+}
+
+.create__account__header p {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+  color: #d8000c;
+  top: -25px;
+  right: -10px;
+}

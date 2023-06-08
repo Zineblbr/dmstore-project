@@ -1,0 +1,21 @@
+.cart__badge {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cart__badge__count {
+  position: absolute;
+  top: -3px;
+  right: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #555555;
+  border-radius: 50%;
+  color: #555555;
+  font-size: 10px;
+}
